@@ -1,0 +1,22 @@
+Map = {'Key':'value',
+        'Key1':'}
+
+        "{"key1":"value1",}"
+
+        API Request
+        void testFunction() async {
+        var response =  await http.post(Uri.parse('https://google.com/Users'),
+           headers: {'api_token': '1234'},
+           body:{
+            'phone_number':'12344567890',
+            'name':'[test1, test2]',
+           },
+           );
+           response.body = "{"name":"{"test":"testvalue"}",""}"
+           Map<Srting,dynamic> responseBody = jsonDecode(response.body);
+           print('responseBody');
+            String name = responseBody['name']['test'];
+
+            nameList[test1, test2, test3];
+            name = nameList[0]
+        }
