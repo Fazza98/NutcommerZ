@@ -1,4 +1,4 @@
-# anooz_ui
+# nut_ui
 
 A new Flutter project.
 
